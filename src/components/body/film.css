@@ -1,0 +1,103 @@
+.container-body {
+    width: Hug (1,170px)px;
+    height: Hug (361.87px)px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+.new-release {
+    width: 232px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+
+}
+
+.container-card-film {
+    width: Hug (1,170px)px;
+    height: Hug (305.87px)px;
+    gap: 30px;
+    opacity: 0px;
+
+    display: grid; /* Sử dụng grid layout */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px; /* Khoảng cách giữa các thẻ card-film */
+    justify-content: center; /* Căn giữa các thẻ card-film theo chiều ngang trong grid container */
+  }
+  
+  .card-film {
+    width: 170px;
+    height: 305.87px;
+    gap: 0px;
+   
+    opacity: 0px;
+
+    position: relative; /* Thiết lập cho card-film để chứa các phần tử được định vị tuyệt đối */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    border: 1px solid #ddd;
+    
+    
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cover-photo-film {
+      
+    width: 170px;
+    height: 253.84px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .linear-gradient {
+    width: 170px;
+    height: 253.84px;
+    top: 48.9px;
+    gap: 0px;
+    
+    opacity: 0px;
+
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%);
+
+    z-index: 1; /* Đặt z-index thấp hơn so với các phần tử được định vị tuyệt đối khác */
+  }
+  
+  .episode, .movie-name {
+    position: absolute;
+    z-index: 2; /* Đặt z-index cao hơn để chúng nằm trên lớp linear-gradient */
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .episode {
+    bottom: 30px; /* Đặt vị trí ở dưới cùng một chút */
+    font-size: 14px;
+  }
+  
+  .movie-name {
+    bottom: 0; /* Đặt ngay phía trên lớp gradient */
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.5); /* Nền mờ để làm nổi bật tên phim */
+  }
+  

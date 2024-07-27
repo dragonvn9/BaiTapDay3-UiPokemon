@@ -1,0 +1,189 @@
+/* Đặt style cho container-header để sử dụng Flexbox */
+.container-header {
+    display: flex;
+    
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    align-items: flex-start;
+    justify-content: center; /* Căn giữa các phần tử theo chiều dọc */
+    padding: 20px; /* Khoảng cách bên trong */
+    background-color: #f4f4f4; /* Màu nền của container */
+    width: 100%; /* Đảm bảo container chiếm toàn bộ chiều rộng của phần tử chứa */
+    box-sizing: border-box; /* Đảm bảo padding không làm container rộng hơn */
+    background-color: #192026;
+    text-align: left; /* Căn trái nội dung bên trong .explore */
+  }
+  
+  /* Style cho navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Phân phối đều các phần tử */
+    width: Fixed (1,174px)px;
+    height: Hug (48px)px;
+    gap: 141px;
+    opacity: 0px;
+  
+
+  }
+
+ 
+  .anomine {
+    width: 201.44px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    color: white;
+    text-align: center; /* Căn trái nội dung bên trong .explore */
+
+  }
+  .home, .last-anime {
+    width: 63.16px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color :#868686;
+
+  }
+  .explore {
+    width: 118px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left; /* Căn trái nội dung bên trong .explore */
+    color: #FFFFFF;
+    margin: 10px 0; /* Khoảng cách trên và dưới */
+
+  }
+  .intro {
+    width: 387px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.75px;
+    text-align: left; /* Căn trái nội dung bên trong .explore */
+    color: #868686;
+    
+  }
+  .baner {
+    width: 1170px;
+    height: 400px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    position: relative; /* Để các phần tử con có thể được căn chỉnh tuyệt đối */
+
+
+  }
+  .background-header {
+    width: 1170px;
+    height: 400px;
+    top: 211px;
+    left: 83px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+
+  /* Style cho title và lead */
+  .header-on {
+    position: absolute; /* Đặt các phần tử ở vị trí tuyệt đối */
+    top: 200px;
+    left: 70px;
+    color: white; /* Màu chữ trắng để nổi bật trên nền ảnh */
+    background: transparent; /* Nền trong suốt */
+    padding: 20px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo tròn các góc */
+    width: Fixed (586px)px;
+    height: Hug (161px)px;
+    
+    padding: 0px 15px 0px 0px;
+    gap: 16px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  /* Căn chỉnh title */
+.title {
+    top: 20px; /* Khoảng cách từ lề trên của .header-1 */
+    left: 20px; /* Khoảng cách từ lề trái của .header-1 */
+    font-size: 24px;
+    font-weight: bold;
+    width: 571px;
+    height: 64px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  /* Căn chỉnh lead */
+.lead {
+    top: 60px; /* Khoảng cách từ lề trên của .header-1 */
+    left: 20px; /* Khoảng cách từ lề trái của .header-1 */
+    font-size: 16px;
+    width: calc(100% - 40px); 
+    width: 571px;
+    height: 81px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+
+  
+  /* Style cho các phần tử bên trong navbar */
+  .navbar div {
+    flex: 1; /* Các phần tử chiếm cùng một không gian */
+    text-align: center; /* Căn giữa nội dung bên trong các phần tử */
+    padding: 10px; /* Khoảng cách bên trong các phần tử */
+  }
+  
+  /* Style cho ô tìm kiếm */
+  .search input {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử chứa */
+    padding: 10px; /* Khoảng cách bên trong ô tìm kiếm */
+    border: 1px solid #ccc; /* Viền cho ô tìm kiếm */
+    border-radius: 5px; /* Bo tròn các góc của ô tìm kiếm */
+  }
+  
+  /* Style cho các phần tử khác */
+  .explore, .intro {
+    font-size: 18px; /* Kích thước chữ */
+    margin: 10px 0; /* Khoảng cách trên và dưới */
+  }
+  
+  .carousel {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+    max-width: 1200px; /* Chiều rộng tối đa của carousel */
+  }
+  
+  /* Style cho phần tử header bên trong carousel */
+  .header {
+    text-align: center; /* Căn giữa nội dung */
+  }
+  
+  .title {
+    font-size: 24px; /* Kích thước chữ cho tiêu đề */
+    font-weight: bold; /* Định dạng chữ đậm */
+  }
+  
+  .lead {
+    font-size: 16px; /* Kích thước chữ cho mô tả */
+    color: #555; /* Màu chữ cho mô tả */
+    margin-top: 10px; /* Khoảng cách trên mô tả */
+  }
+  

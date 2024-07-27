@@ -1,0 +1,30 @@
+.modal-layout{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed;
+     top: 0;
+     left : 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.modal-container {
+    max-width: 80%; 
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgb(220, 226, 231); 
+    padding: 20px; 
+    z-index: 1100; 
+   
+}
+.modal-img {
+    width: 170px;
+    height: 253.84px;
+    background-color: rgb(238, 239, 240);
+}
+
+.modal-description {
+    text-align: left;
+}
